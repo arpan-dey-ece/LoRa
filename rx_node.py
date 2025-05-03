@@ -87,7 +87,7 @@ class sx126x:
         self.ser.close()
 
 
-node = sx126x(serial_num="COM4", freq=433, addr=101, power=22, rssi=False)
+node = sx126x(serial_num="COM5", freq=433, addr=101, power=22, rssi=False)
 
 try:
     print("Receiver ready. Press Ctrl+C to exit.")
